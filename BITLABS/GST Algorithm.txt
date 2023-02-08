@@ -1,0 +1,11 @@
+start
+step1:read p1"price of product 1"
+step2:read p2"price of product 2"
+step3:read p3"price of product 3"
+step4:sum=p1+p2+p3
+step5:display sum
+step6:sum=sum*10/100
+step7:display sum
+stop
+
+

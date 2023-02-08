@@ -1,0 +1,16 @@
+start
+count=1
+repeat
+step1:read p1,p2,p3
+step2:sum=p1+p2+p3
+step3:if(sum<500)
+      display total=sum*10/100
+      else
+      if(sum<1000)
+      display total=sum*20/100
+      else
+      if(sum<1500)
+      display total=sum*30/100
+step4:count=count+1
+until(count<=10)
+stop

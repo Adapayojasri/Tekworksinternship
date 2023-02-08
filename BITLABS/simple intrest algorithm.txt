@@ -1,0 +1,5 @@
+start
+step1:read P,T,R
+step2:SI=P*T*R/100
+step3:display SI
+stop

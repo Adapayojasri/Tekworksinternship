@@ -1,0 +1,15 @@
+start
+step 1 : read any number n;
+step 2 : while(n>0)
+        {
+         dig = n%10;
+          if(dig%2==0)
+        {
+          print dig;
+         }
+         else 
+         print dig;
+          n=n/10;
+           }
+end
+ 

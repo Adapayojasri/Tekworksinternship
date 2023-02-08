@@ -1,0 +1,10 @@
+start
+step1: i=40 n=90,s=0
+step2: while(i<=n)
+       {
+         if(i%9==0)
+         s=s+i
+         i=i+1
+           }  
+step3:print s
+stop
