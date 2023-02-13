@@ -1,0 +1,94 @@
+start  
+//ATM TRANSACTION ALGORITHM
+step1:insert the card into the ATM
+step2:if(card =valid)
+     {
+     enter into the transaction
+     else display"the card is invalid"
+     }
+step2:display the language
+      1.telugu
+      2.english
+      3.hindhi
+step3:select the language
+step4:select the account type
+      1.savings
+      2.current
+step5:display the type of transaction
+      1.withdrawl
+      2.deposit
+      3.check balance
+      4.generate pin
+      5.change pin
+step6:if the input is withdrawl
+      select"cash withdrawl option"
+      print"enter the pin number"
+      if(pin is valid)
+      { 
+        print "enter amount"
+        if amount<100
+          {
+            print"invalid amount"
+            elseif amount>100 
+            print"enter the amount"
+           }
+            print"collect the cash"
+            print"remove your card"      
+      }
+        else if(pin is invalid)
+        print"your pin is invalid enter the correct pin number"
+step7:if the input is cash deposit
+      select"cash deposit option"
+      print"enter the pin number
+      if(pin is valid)
+      {
+        print "enter amount"
+        if amount<100
+          {
+            print"invalid amount"
+            elseif amount>100
+            print"deposit your amount"
+           }
+            print"your money can be deposited succesfully"
+      } 
+       else if(pin is invalid)
+        print"your pin is invalid enter the correct pin number"
+step8:if the input is checking the balance
+      select"balance enquiry"
+      print"enter the pin number"
+      if(pin is valid)
+      {
+       display your amount
+       else if(pin is invalid)
+       print"your pin is invalid"
+       }
+step9:if the input is generate the pin
+      print"insert the card into the ATM"
+      select"pin generate option"
+      print"enter your card number"
+      if(card number is valid)
+      {
+         print"create new atm pin number"
+         print"pin number was created successfully"
+        else if(card number is invalid)
+         print"enter a valid card number"
+       }
+step10:if the input is changing the pin number 
+     select"change pin option" 
+     print"enter the existing pin"
+     if (existing pin is valid)
+     {
+      print"enter the new pin number"
+      print"enter the OTP from your mobile"
+      if(OTP is valid)
+          { 
+            print"your pin was changed successfully"
+          else if(OTP is invalid)
+            print"incorrect OTP"
+           }
+       else if(existing pin is invalid)
+       print"your existing pi is invalid"
+       }
+step11:Thank you
+stop
+       

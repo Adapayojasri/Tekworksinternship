@@ -1,0 +1,86 @@
+//RESTAURENT MANAGEMENT PROJECT
+Start
+step1:welcome to the restaurent
+step2:select input
+      1.customer
+      2.admin
+step3:if the input is customer
+      print"options"
+      1.profile
+      2.category
+      3.food items
+step4:select login or account create
+step5:if(registered user)
+      {
+      print"enter email id and password"
+       if(details correct)
+       print"enter successfully"
+       else
+       print"details are inocorecct"
+       else(unregistered user)
+       print"create account"
+        }
+step6:select category
+step7:select profile
+      display the options
+      1.edit profile information
+      2.my account
+      3.address
+      4.payments and refunds
+      5.help
+             if the input is edit profile information
+             print"change name"
+             print"change email id"
+             else the input is my account
+             print"favourites and settings"
+             else the input is payments and refunds
+             print"refund status"
+             print"payment modes"
+             else the input is help
+             print"FAQ'S and links"
+step8:select category
+step9:print"the food items"
+      1.starters 
+        1.1 veg starters
+         1.2non veg starters
+      2.juices
+      3.salads
+      4.soups
+step10:select the food item
+      if(item=available)
+      {
+       print"click to order now"
+       print"select the quantity"
+       else (item is not available)
+       print"this item is currently unavailable,please select another item"
+        }
+       select"delivery addresss"
+       select the payment option
+      1.cash on delivery
+      2.online payment
+      if(payment=online)
+        {
+        print"select payment method"
+        print"enter pin number"
+        if(pin=valid)
+        print"payment successfull"
+        else(pin!=valid)
+        print"invalid pin enter the correct pin"
+        if(payment=successfully)
+         print"your order was successfully placed"
+         else(payment!=successfull)
+         print"your orderd was not placed please try again later"
+        }
+step11:if the input is admin
+       display"options"
+       1.add any food item
+       2.remove the food item
+       select add the food item
+       print"add the food item"
+       selectremove the food item
+       print"remove the food item"
+stop
+       
+       
+   
+         

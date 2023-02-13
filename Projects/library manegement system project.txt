@@ -1,0 +1,30 @@
+// LIBRARY MANAGEMENT SYSTEM ALGORITHM
+Start
+step1:Enter into the library
+step2:if the user wants the book
+      select the type
+      1.Registered user
+      2.New user
+      if the user is registered user
+      { 
+        display"enter username and password"
+        if(user name is correct)
+        select the book from library by using
+        1.book name
+        2.author name
+        3.edition number
+        else if(user name is incorrect)
+        print"enter the correct user details"
+      }
+      else if the user is new user
+      display"create account"
+      display"enter mailid"
+      display"create relevant password"
+      display"password must contain atleast 8characters, 1 special character,1 numerical value"
+      if(password match the credentials)
+       {
+          print"account created successfully"
+       else if(password doesn't match the credentials)
+          print"create correct password"
+stop
+    
