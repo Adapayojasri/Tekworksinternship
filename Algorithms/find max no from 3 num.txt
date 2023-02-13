@@ -1,0 +1,11 @@
+start
+step1:read n1,n2,n3
+step2:maximum=n1
+step3:if(n2>maximum)
+      {
+      print maximum=n2
+      else(n3>maximum) 
+      print maximum=n3
+       }
+step4:print maximum
+stop

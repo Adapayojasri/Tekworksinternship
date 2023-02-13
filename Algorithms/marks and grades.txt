@@ -1,0 +1,19 @@
+start
+step1:read a marks of 5 subjects physics,chemistry,biology,maths,computer
+step2:read total
+step3:total=physics+chemistry+biology+maths+computer
+step2:read percentage
+step3:percentage=total/500*100
+step4:if(percentage>=90)
+      print"grade A"
+      else if(percentage>=80)
+      print"grade B"
+      else if(percentage>=70)
+      print"grade C"
+      else if(percentage>=60)
+      print"grade D"
+      else if(percentage>=50)
+      print"grade E"
+      else if(percentage<40)
+      print"grade F"
+stop

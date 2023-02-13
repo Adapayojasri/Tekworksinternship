@@ -1,0 +1,8 @@
+start
+step1:read a character n1
+step2:if(n1>A && n1<Z)
+      {
+      print"n1 is an alphabet"
+      else
+      print"n1 is not an alphabet"
+stop

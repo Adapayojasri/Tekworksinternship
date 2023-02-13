@@ -1,0 +1,11 @@
+start
+step1:select one year
+step2:year=n
+step3:if(n%100==0 && n%400==0)
+      {
+      else if(n%4==0 && n%100!=0)
+       print"n is a leaap year"
+       else
+       print"n is not a leap year"
+       }
+stop

@@ -1,0 +1,9 @@
+start
+step1:read a char n1
+step2:if(n1>A && n1<Z)
+      {
+      print" n1 ia an alphabet"
+      else if(n1>0 && n1<9)
+      print"n1 is an digit"
+      else
+      print"n1 is a special character"
